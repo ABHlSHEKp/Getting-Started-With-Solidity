@@ -1,13 +1,16 @@
 # Getting-Started-With-Solidity
 
 
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.6.12 <0.9.0;
+    // SPDX-License-Identifier: MIT
 
 
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
-contract MyToken {
+    pragma solidity >=0.6.12 <0.9.0;
+
+ 
+    import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+
+    contract MyToken {
     using SafeMath for uint;
 
     string public tokenName = "Abhi";
